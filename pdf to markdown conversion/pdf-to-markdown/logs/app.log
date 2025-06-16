@@ -1,0 +1,173 @@
+2025-06-14 18:28:23,812 - fastapi_integration.MarkdownPDFExtractor - ERROR - Error extracting markdown: 'bool' object is not callable
+2025-06-14 18:28:23,813 - fastapi_integration.MarkdownPDFExtractor - ERROR - Traceback (most recent call last):
+  File "C:\Users\gauta\Downloads\pdf to markdown conversion\pdf-to-markdown\fastapi_integration.py", line 163, in extract_markdown
+    tables = self.extract_tables() if self.extract_tables else []
+TypeError: 'bool' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\gauta\Downloads\pdf to markdown conversion\pdf-to-markdown\fastapi_integration.py", line 163, in extract_markdown
+    tables = self.extract_tables() if self.extract_tables else []
+TypeError: 'bool' object is not callable
+2025-06-14 18:28:23,817 - fastapi_integration.MarkdownPDFExtractor - INFO - Markdown content saved to outputs\300ab3eb-165e-457e-bb3f-c536f4c227ac\Models_and_methods_of_artificial_intelligence_for_a_monitoring_cluster.md
+2025-06-14 18:28:23,817 - fastapi_integration.MarkdownPDFExtractor - INFO - Markdown content has been saved to outputs\300ab3eb-165e-457e-bb3f-c536f4c227ac\Models_and_methods_of_artificial_intelligence_for_a_monitoring_cluster.md
+2025-06-14 18:28:23,817 - fastapi_integration.MarkdownPDFExtractor - INFO - Markdown content saved to outputs\300ab3eb-165e-457e-bb3f-c536f4c227ac\Models_and_methods_of_artificial_intelligence_for_a_monitoring_cluster.md
+2025-06-14 18:29:16,655 - fastapi_integration.MarkdownPDFExtractor - ERROR - Error extracting markdown: 'bool' object is not callable
+2025-06-14 18:29:16,655 - fastapi_integration.MarkdownPDFExtractor - ERROR - Traceback (most recent call last):
+  File "C:\Users\gauta\Downloads\pdf to markdown conversion\pdf-to-markdown\fastapi_integration.py", line 163, in extract_markdown
+    tables = self.extract_tables() if self.extract_tables else []
+TypeError: 'bool' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\gauta\Downloads\pdf to markdown conversion\pdf-to-markdown\fastapi_integration.py", line 163, in extract_markdown
+    tables = self.extract_tables() if self.extract_tables else []
+TypeError: 'bool' object is not callable
+2025-06-14 18:29:16,655 - fastapi_integration.MarkdownPDFExtractor - INFO - Markdown content saved to outputs\5dc6bd64-d595-4c31-96e7-71f34ede3c56\Models_and_methods_of_artificial_intelligence_for_a_monitoring_cluster.md
+2025-06-14 18:29:16,655 - fastapi_integration.MarkdownPDFExtractor - INFO - Markdown content has been saved to outputs\5dc6bd64-d595-4c31-96e7-71f34ede3c56\Models_and_methods_of_artificial_intelligence_for_a_monitoring_cluster.md
+2025-06-14 18:29:16,655 - fastapi_integration.MarkdownPDFExtractor - INFO - Markdown content saved to outputs\5dc6bd64-d595-4c31-96e7-71f34ede3c56\Models_and_methods_of_artificial_intelligence_for_a_monitoring_cluster.md
+2025-06-14 18:38:23,614 - fastapi_integration.MarkdownPDFExtractor - ERROR - Error extracting markdown: 'bool' object is not callable
+2025-06-14 18:38:23,614 - fastapi_integration.MarkdownPDFExtractor - ERROR - Traceback (most recent call last):
+  File "C:\Users\gauta\Downloads\pdf to markdown conversion\pdf-to-markdown\fastapi_integration.py", line 164, in extract_markdown
+    tables = self.extract_tables() if self.extract_tables else []
+TypeError: 'bool' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\gauta\Downloads\pdf to markdown conversion\pdf-to-markdown\fastapi_integration.py", line 164, in extract_markdown
+    tables = self.extract_tables() if self.extract_tables else []
+TypeError: 'bool' object is not callable
+2025-06-14 18:38:23,614 - fastapi_integration.MarkdownPDFExtractor - INFO - Markdown content saved to output\9d817604-4384-4ce8-ba59-92269a14151d\Models_and_methods_of_artificial_intelligence_for_a_monitoring_cluster.md
+2025-06-14 18:38:23,614 - fastapi_integration.MarkdownPDFExtractor - INFO - Markdown content has been saved to output\9d817604-4384-4ce8-ba59-92269a14151d\Models_and_methods_of_artificial_intelligence_for_a_monitoring_cluster.md
+2025-06-14 18:38:23,614 - fastapi_integration.MarkdownPDFExtractor - INFO - Markdown content saved to output\9d817604-4384-4ce8-ba59-92269a14151d\Models_and_methods_of_artificial_intelligence_for_a_monitoring_cluster.md
+2025-06-14 18:39:20,018 - fastapi_integration.MarkdownPDFExtractor - ERROR - Error extracting markdown: 'bool' object is not callable
+2025-06-14 18:39:20,020 - fastapi_integration.MarkdownPDFExtractor - ERROR - Traceback (most recent call last):
+  File "C:\Users\gauta\Downloads\pdf to markdown conversion\pdf-to-markdown\fastapi_integration.py", line 164, in extract_markdown
+    tables = self.extract_tables() if self.extract_tables else []
+TypeError: 'bool' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\gauta\Downloads\pdf to markdown conversion\pdf-to-markdown\fastapi_integration.py", line 164, in extract_markdown
+    tables = self.extract_tables() if self.extract_tables else []
+TypeError: 'bool' object is not callable
+2025-06-14 18:39:20,020 - fastapi_integration.MarkdownPDFExtractor - INFO - Markdown content saved to output\838bd4f5-1bf4-45f3-9e20-6a062707ad27\Resume.md
+2025-06-14 18:39:20,020 - fastapi_integration.MarkdownPDFExtractor - INFO - Markdown content has been saved to output\838bd4f5-1bf4-45f3-9e20-6a062707ad27\Resume.md
+2025-06-14 18:39:20,020 - fastapi_integration.MarkdownPDFExtractor - INFO - Markdown content saved to output\838bd4f5-1bf4-45f3-9e20-6a062707ad27\Resume.md
+2025-06-14 18:44:35,818 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 5 tables from the PDF.
+2025-06-14 18:44:35,829 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 1
+2025-06-14 18:44:35,847 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,863 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 2
+2025-06-14 18:44:35,863 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,863 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 3
+2025-06-14 18:44:35,863 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,863 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 4
+2025-06-14 18:44:35,863 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,863 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 5
+2025-06-14 18:44:35,878 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,878 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 6
+2025-06-14 18:44:35,878 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,878 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 7
+2025-06-14 18:44:35,890 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,890 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 8
+2025-06-14 18:44:35,890 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,890 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 9
+2025-06-14 18:44:35,890 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,894 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 10
+2025-06-14 18:44:35,898 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,898 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 11
+2025-06-14 18:44:35,906 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,910 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 12
+2025-06-14 18:44:35,910 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,910 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 13
+2025-06-14 18:44:35,910 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,910 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 14
+2025-06-14 18:44:35,924 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,926 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 15
+2025-06-14 18:44:35,930 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,930 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 16
+2025-06-14 18:44:35,930 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,940 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 17
+2025-06-14 18:44:35,942 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,946 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 18
+2025-06-14 18:44:35,946 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:35,946 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 19
+2025-06-14 18:44:35,989 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,180 - fastapi_integration.MarkdownPDFExtractor - ERROR - Error performing OCR: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-06-14 18:44:36,200 - fastapi_integration.MarkdownPDFExtractor - ERROR - Traceback (most recent call last):
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 451, in get_tesseract_version
+    output = subprocess.check_output(
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 1456, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gauta\Downloads\pdf to markdown conversion\pdf-to-markdown\fastapi_integration.py", line 315, in perform_ocr
+    ocr_result = pytesseract.image_to_data(
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 590, in image_to_data
+    if get_tesseract_version(cached=True) < TESSERACT_MIN_VERSION:
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 163, in wrapper
+    wrapper._result = func(*args, **kwargs)
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 458, in get_tesseract_version
+    raise TesseractNotFoundError()
+pytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information.
+Traceback (most recent call last):
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 451, in get_tesseract_version
+    output = subprocess.check_output(
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 1456, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gauta\Downloads\pdf to markdown conversion\pdf-to-markdown\fastapi_integration.py", line 315, in perform_ocr
+    ocr_result = pytesseract.image_to_data(
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 590, in image_to_data
+    if get_tesseract_version(cached=True) < TESSERACT_MIN_VERSION:
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 163, in wrapper
+    wrapper._result = func(*args, **kwargs)
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 458, in get_tesseract_version
+    raise TesseractNotFoundError()
+pytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-06-14 18:44:36,200 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 20
+2025-06-14 18:44:36,212 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,212 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 21
+2025-06-14 18:44:36,212 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,212 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 22
+2025-06-14 18:44:36,212 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,228 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 23
+2025-06-14 18:44:36,228 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,228 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 24
+2025-06-14 18:44:36,228 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,228 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 25
+2025-06-14 18:44:36,228 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,228 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 26
+2025-06-14 18:44:36,243 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,243 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 27
+2025-06-14 18:44:36,243 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,243 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 28
+2025-06-14 18:44:36,243 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,259 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 29
+2025-06-14 18:44:36,259 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,269 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 30
+2025-06-14 18:44:36,269 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,275 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 31
+2025-06-14 18:44:36,275 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,275 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 32
+2025-06-14 18:44:36,275 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,275 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 33
+2025-06-14 18:44:36,275 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,291 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 34
+2025-06-14 18:44:36,291 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 3 links from the page.
+2025-06-14 18:44:36,303 - fastapi_integration.MarkdownPDFExtractor - INFO - Processing page 35
+2025-06-14 18:44:36,303 - fastapi_integration.MarkdownPDFExtractor - INFO - Extracted 0 links from the page.
+2025-06-14 18:44:36,306 - fastapi_integration.MarkdownPDFExtractor - INFO - Markdown content saved to output\77ebc015-55c9-4c20-8e29-3da8cc09c291\Models_and_methods_of_artificial_intelligence_for_a_monitoring_cluster.md
+2025-06-14 18:44:36,306 - fastapi_integration.MarkdownPDFExtractor - INFO - Markdown content has been saved to output\77ebc015-55c9-4c20-8e29-3da8cc09c291\Models_and_methods_of_artificial_intelligence_for_a_monitoring_cluster.md
+2025-06-14 18:44:36,306 - fastapi_integration.MarkdownPDFExtractor - INFO - Markdown content saved to output\77ebc015-55c9-4c20-8e29-3da8cc09c291\Models_and_methods_of_artificial_intelligence_for_a_monitoring_cluster.md

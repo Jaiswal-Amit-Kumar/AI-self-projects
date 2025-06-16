@@ -1,0 +1,99 @@
+2025-06-12 19:50:44,986 - __main__ - INFO - Image captioning model set up successfully.
+2025-06-12 19:50:45,299 - __main__ - INFO - Extracted 0 tables from the PDF.
+2025-06-12 19:50:45,299 - __main__ - INFO - Processing page 1
+2025-06-12 19:50:45,329 - __main__ - INFO - Extracted 6 links from the page.
+2025-06-12 19:50:45,358 - __main__ - INFO - Markdown content saved successfully.
+2025-06-12 19:50:45,358 - __main__ - INFO - Markdown content has been saved to outputs/Resume.md
+2025-06-12 19:52:42,270 - __main__ - INFO - Image captioning model set up successfully.
+2025-06-12 19:52:52,494 - __main__ - INFO - Extracted 4 tables from the PDF.
+2025-06-12 19:52:52,494 - __main__ - INFO - Processing page 1
+2025-06-12 19:52:52,517 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:52,528 - __main__ - INFO - Processing page 2
+2025-06-12 19:52:52,532 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:52,536 - __main__ - INFO - Processing page 3
+2025-06-12 19:52:52,536 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:52,541 - __main__ - INFO - Processing page 4
+2025-06-12 19:52:52,573 - __main__ - INFO - Extracted 3 links from the page.
+2025-06-12 19:52:52,627 - __main__ - ERROR - Error performing OCR: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-06-12 19:52:52,627 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 451, in get_tesseract_version
+    output = subprocess.check_output(
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 1456, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gauta\Downloads\pdf to markdown conversion\pdf-to-markdown\extract.py", line 224, in perform_ocr
+    ocr_result = pytesseract.image_to_data(
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 590, in image_to_data
+    if get_tesseract_version(cached=True) < TESSERACT_MIN_VERSION:
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 163, in wrapper
+    wrapper._result = func(*args, **kwargs)
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 458, in get_tesseract_version
+    raise TesseractNotFoundError()
+pytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information.
+Traceback (most recent call last):
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 451, in get_tesseract_version
+    output = subprocess.check_output(
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\gauta\.conda\envs\tf2\lib\subprocess.py", line 1456, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gauta\Downloads\pdf to markdown conversion\pdf-to-markdown\extract.py", line 224, in perform_ocr
+    ocr_result = pytesseract.image_to_data(
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 590, in image_to_data
+    if get_tesseract_version(cached=True) < TESSERACT_MIN_VERSION:
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 163, in wrapper
+    wrapper._result = func(*args, **kwargs)
+  File "C:\Users\gauta\.conda\envs\tf2\lib\site-packages\pytesseract\pytesseract.py", line 458, in get_tesseract_version
+    raise TesseractNotFoundError()
+pytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-06-12 19:52:54,191 - __main__ - INFO - Processing page 5
+2025-06-12 19:52:54,194 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:54,199 - __main__ - INFO - Processing page 6
+2025-06-12 19:52:54,202 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:54,205 - __main__ - INFO - Processing page 7
+2025-06-12 19:52:54,206 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:54,216 - __main__ - INFO - Processing page 8
+2025-06-12 19:52:54,221 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:54,221 - __main__ - INFO - Processing page 9
+2025-06-12 19:52:54,229 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:54,232 - __main__ - INFO - Processing page 10
+2025-06-12 19:52:54,236 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:54,239 - __main__ - INFO - Processing page 11
+2025-06-12 19:52:54,240 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:54,242 - __main__ - INFO - Processing page 12
+2025-06-12 19:52:54,247 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:54,249 - __main__ - INFO - Processing page 13
+2025-06-12 19:52:54,256 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:54,262 - __main__ - INFO - Processing page 14
+2025-06-12 19:52:54,279 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:54,285 - __main__ - INFO - Processing page 15
+2025-06-12 19:52:54,298 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:54,329 - __main__ - INFO - Processing page 16
+2025-06-12 19:52:54,654 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:54,716 - __main__ - INFO - Processing page 17
+2025-06-12 19:52:54,721 - __main__ - INFO - Extracted 0 links from the page.
+2025-06-12 19:52:54,723 - __main__ - INFO - Processing page 18
+2025-06-12 19:52:54,729 - __main__ - INFO - Extracted 6 links from the page.
+2025-06-12 19:52:54,731 - __main__ - INFO - Processing page 19
+2025-06-12 19:52:54,744 - __main__ - INFO - Extracted 10 links from the page.
+2025-06-12 19:52:54,781 - __main__ - INFO - Markdown content saved successfully.
+2025-06-12 19:52:54,782 - __main__ - INFO - Markdown content has been saved to outputs/template_en_russian (1) (1).md
